@@ -1,0 +1,77 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding : 10px;
+    background-color: #91d3cf;
+}
+
+header {
+    background-color: #b3cf96;
+    color: #333;
+    padding: 10px 20px;
+    text-align: center;
+}
+.home {
+    padding-right: 10px;
+
+}
+nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #333;
+}
+
+#cakes {
+    padding: 20px;
+}
+
+.cake-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.cake-card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 15px;
+    width: 200px;
+    margin: 10px;
+    text-align: center;
+}
+
+.cake-card img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+footer {
+    background-color: #d78ccf;
+    color: #6e7ca3;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+
+}
+    .cart-item {
+        border-bottom: 1px solid #ee94ca;
+        padding: 10px 0;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .cart-item button {
+        margin: 0 5px;
+        padding: 5px 10px;
+        background-color: #77d5a8;
+        border: none;
+        cursor: pointer;
+    }
+    
+.home{
+    color: #130a0a;
+}
